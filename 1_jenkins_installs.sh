@@ -22,6 +22,4 @@ echo "administrator password: $(sudo cat /var/lib/jenkins/secrets/initialAdminPa
 echo " "
 echo "Install plugin Pipeline Utility Steps"
 
-
-
 exit 0
