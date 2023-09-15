@@ -5,6 +5,8 @@
 
 sudo passwd jenkins
 
+echo " "
+echo "Signing in as Jenkins user..."
 sudo su - jenkins -s /bin/bash
 
 pip install awsebcli --upgrade --user
