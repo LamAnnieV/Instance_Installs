@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 echo "Installing Jenkins..."
 sleep 2
 sudo apt update
@@ -17,7 +15,6 @@ sudo apt upgrade
 sudo apt-get install jenkins
 sudo systemctl start jenkins
 
-
 echo " "
 echo "$(curl ifconfig.me | cut -d "u" -f 1):8080"
 echo " "
@@ -25,22 +22,6 @@ echo "administrator password: $(sudo cat /var/lib/jenkins/secrets/initialAdminPa
 echo " "
 echo "Install plugin Pipeline Utility Steps"
 
-echo "Installing python3.10-venv..."
-sleep 2
-sudo apt update
-sudo apt upgrade
-sudo apt install python3.10-venv
 
-echo "Installing python-pip..."
-sleep 2
-sudo apt update
-sudo apt upgrade
-sudo apt install python-pip
-
-echo "Installing unzip..."
-sleep 2
-sudo apt update
-sudo apt upgrade
-sudo apt install unzip
 
 exit 0
