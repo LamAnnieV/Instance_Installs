@@ -23,3 +23,4 @@ echo " "
 echo "Manually cd to the pipeline"
 echo " "
 
+exit 0
