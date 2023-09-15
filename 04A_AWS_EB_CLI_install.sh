@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Creaet EB Roles before starting
+# Creat EB Roles before starting
 # Update line x the name of the pipeline
 
 sudo passwd jenkins
