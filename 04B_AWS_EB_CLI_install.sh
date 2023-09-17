@@ -1,10 +1,22 @@
 #!/bin/bash
 
-eb init
+pip install awsebcli --upgrade --user
 
-eb create
+export PATH=$PATH:$HOME/.local/bin
 
-echo "copy the URL where the Appliation available at:"
+eb --version
+
+aws configure
+
+cd workspace/
+
+ls
+
+echo " "
+echo "Manually cd to the pipeline"
+echo " "
+
+
 
 exit 0
 
