@@ -2,7 +2,6 @@
 
 
 echo " "
-
 echo "**************************************N O T E**********************************"
 echo " "
 echo "Please have your AWS Access Key ID and AWS Secret Access Key ready"
