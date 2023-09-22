@@ -21,16 +21,22 @@ eb --version
 
 aws configure
 
+echo " "
+
+ls
+
 cd workspace/
 
 ls
 
+
 echo " "
-echo "**************************************N O T E**********************************"
+echo "************************************** N O T E **********************************"
 echo " "
+echo "MAKE SURE User jenkins is cd into folder workspace"
 echo "MANUALLY cd to the PIPELINE"
 echo " "
-echo "**************************************N O T E**********************************"
+echo "************************************** N O T E **********************************"
 echo " "
 
 
