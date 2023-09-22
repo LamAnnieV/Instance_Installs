@@ -2,8 +2,12 @@
 
 echo "Installing Jenkins..."
 echo " "
+echo "**************************************N O T E**********************************"
+echo " "
 echo "For all the prompts, press 'Enter'.  /n use the "
-sleep 3
+echo " "
+echo "**************************************N O T E**********************************"
+echo " "
 echo "Press Enter to continue..."
 read -r
 
