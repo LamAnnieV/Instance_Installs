@@ -1,11 +1,15 @@
 #!/bin/bash
 
 echo " "
+echo "**************************************N O T E**********************************"
+echo " "
 echo "For all the prompts in the installs, press 'Enter'"
-sleep 3
+echo " "
+echo "**************************************N O T E**********************************"
+echo " "
 echo "Press Enter to continue..."
 read -r
-
+echo " "
 echo "Installing python3.10-venv..."
 sleep 2
 
