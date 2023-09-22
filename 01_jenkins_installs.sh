@@ -4,7 +4,7 @@
 echo " "
 echo "**************************************N O T E**********************************"
 echo " "
-echo "For all the prompts, press 'Enter'.  /n use the "
+echo "For all the prompts, press 'Enter'. "
 echo " "
 echo "**************************************N O T E**********************************"
 echo " "
