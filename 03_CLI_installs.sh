@@ -6,6 +6,8 @@ echo "Installing AWS CLI..."
 
 echo " "
 echo "Please have your AWS Access Key ID and AWS Secret Access Key ready"
+echo "When prompt to enter Default region name, enter 'us-east-1'"
+echo "When prompt to enter Default output format, enter 'json'"
 sleep 3
 echo "Press Enter to continue..."
 read -r
