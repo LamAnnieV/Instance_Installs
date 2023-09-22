@@ -2,7 +2,7 @@
 
 echo "Installing Jenkins..."
 echo " "
-echo "For all the prompts, press 'Enter'"
+echo "For all the prompts, press 'Enter'.  /n use the "
 sleep 3
 echo "Press Enter to continue..."
 read -r
@@ -21,7 +21,9 @@ sudo apt-get install jenkins
 sudo systemctl start jenkins
 
 echo " "
-echo "$(curl ifconfig.me | cut -d "u" -f 1):8080"
+echo "TO NAVIGATE TO JENKINS"
+echo " "
+echo "Jenkins IP Address:  $(curl ifconfig.me | cut -d "u" -f 1):8080"
 echo " "
 echo "administrator password: $(sudo cat /var/lib/jenkins/secrets/initialAdminPassword)"
 echo " "
