@@ -1,7 +1,12 @@
 #!/bin/bash
 
 echo "Installing Jenkins..."
-sleep 2
+echo " "
+echo "For all the prompts, press 'Enter'"
+sleep 3
+echo "Press Enter to continue..."
+read -r
+
 sudo apt update
 sudo apt upgrade
 sudo apt-get install fontconfig openjdk-17-jre
