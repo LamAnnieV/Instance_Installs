@@ -1,13 +1,13 @@
 #!/bin/bash
 
-echo "Installing python3.10-venv..."
-sleep 2
-
 echo " "
-echo "For all the prompts, press 'Enter'"
+echo "For all the prompts in the installs, press 'Enter'"
 sleep 3
 echo "Press Enter to continue..."
 read -r
+
+echo "Installing python3.10-venv..."
+sleep 2
 
 sudo apt update
 sudo apt upgrade
