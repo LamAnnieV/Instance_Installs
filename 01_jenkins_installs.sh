@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Installing Jenkins..."
+
 echo " "
 echo "**************************************N O T E**********************************"
 echo " "
@@ -10,6 +10,8 @@ echo "**************************************N O T E*****************************
 echo " "
 echo "Press Enter to continue..."
 read -r
+echo " "
+echo "Installing Jenkins..."
 
 sudo apt update
 sudo apt upgrade
