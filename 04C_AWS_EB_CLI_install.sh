@@ -19,7 +19,9 @@ echo "For spot fleet, enter 'n'"
 echo " "
 echo "************************************** N O T E **********************************"
 echo " "
-
+echo " "
+echo "Press Enter to continue..."
+read -r
 
 eb init
 
