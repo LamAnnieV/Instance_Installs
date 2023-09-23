@@ -8,7 +8,7 @@ echo " "
 echo "For application to use, press enter"
 echo "For Enter Application Name, press enter"
 echo "It appears you are using Python. Is this correct?, press enter"
-echo "For echo "For platform branch, enter option for Python 3.9"
+echo "For platform branch, enter option for Python 3.9"
 echo "For code commit, enter 'n'"
 
 echo "For do you want to set up ssh, enter 'n'"
