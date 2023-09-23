@@ -1,14 +1,14 @@
 #!/bin/bash
 
 echo " "
-echo "**************************************N O T E**********************************"
+echo "************************************** N O T E **********************************"
 echo " "
 echo "Make sure your EB Roles are configured"
 echo "Please have your AWS Access Key ID and AWS Secret Access Key ready"
 echo "When prompt to enter Default region name, enter 'us-east-1'"
 echo "When prompt to enter Default output format, enter 'json'"
 echo " "
-echo "**************************************N O T E**********************************"
+echo "************************************** N O T E **********************************"
 echo " "
 echo "Press Enter to continue..."
 read -r
