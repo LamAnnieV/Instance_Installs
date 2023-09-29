@@ -15,14 +15,10 @@ sleep 2
 
 sudo apt update
 sudo apt upgrade
-sudo apt install python3.10-venv
+sudo apt install -y python3.10-venv
 
-echo "Installing python-pip..."
-sleep 2
-sudo apt update
-sudo apt install python-pip
 
-echo "Installing python3-pip..."
+echo "Installing -y python3-pip..."
 sleep 2
 sudo apt update
 sudo apt install python3-pip
@@ -30,6 +26,6 @@ sudo apt install python3-pip
 echo "Installing unzip..."
 sleep 2
 sudo apt update
-sudo apt install unzip
+sudo apt install -y unzip
 
 exit 0
