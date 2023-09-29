@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Running updates...
-sudo apt update
+sudo apt-get update
 sudo apt upgrade
 
 echo " "
@@ -17,8 +17,10 @@ echo "Installing unzip..."
 sudo apt install -y unzip
 
 
-echo " "
+
 echo "Installing ngnix..."
-sudo apt install -y ngnix
+sudo apt-get install -y nginx
+sudo nginx -v
+echo " "
 
 exit 0
