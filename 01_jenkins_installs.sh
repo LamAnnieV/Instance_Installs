@@ -19,6 +19,9 @@ echo "TO NAVIGATE TO JENKINS"
 echo " "
 echo "Jenkins IP Address:  $(curl ifconfig.me | cut -d "u" -f 1):8080"
 echo " "
+sudo chmod 777 /var/lib/jenkins/secrets/
+sudo chmod 644 /var/lib/jenkins/secrets/initialAdminPassword
+
 echo "administrator password: $(sudo cat /var/lib/jenkins/secrets/initialAdminPassword)"
 echo " "
 echo "Install plugin Pipeline Utility Steps"
