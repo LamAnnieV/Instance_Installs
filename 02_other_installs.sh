@@ -16,11 +16,4 @@ echo " "
 echo "Installing unzip..."
 sudo apt install -y unzip
 
-
-
-echo "Installing ngnix..."
-sudo apt-get install -y nginx
-sudo nginx -v
-echo " "
-
 exit 0
