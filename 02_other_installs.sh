@@ -2,7 +2,7 @@
 
 echo "Running updates...
 sudo apt-get update
-sudo apt upgrade
+sudo apt -y upgrade
 
 echo " "
 echo "Installing python3.10-venv...
