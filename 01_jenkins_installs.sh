@@ -24,6 +24,6 @@ sudo chmod 644 /var/lib/jenkins/secrets/initialAdminPassword
 
 echo "administrator password: $(sudo cat /var/lib/jenkins/secrets/initialAdminPassword)"
 echo " "
-echo "Install plugin Pipeline Utility Steps"
+echo "Install Jenkins plugin as required"
 
 exit 0
