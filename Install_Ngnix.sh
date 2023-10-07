@@ -2,7 +2,7 @@
 
 echo "Running updates...
 sudo apt-get update
-sudo apt upgrade
+sudo apt -y upgrade
 
 echo "Installing ngnix..."
 sudo apt-get install -y nginx
