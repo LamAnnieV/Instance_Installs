@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "Running updates...
+echo "Running updates..."
 sudo apt-get update
 sudo apt -y upgrade
 
