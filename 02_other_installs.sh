@@ -2,7 +2,7 @@
 
 echo "Running updates..."
 sudo apt-get update
-sudo apt -y upgrade
+#sudo apt -y upgrade
 
 echo " "
 echo "Installing python3.10-venv..."
@@ -10,7 +10,7 @@ sudo apt install -y python3.10-venv
 
 echo "Running updates..."
 sudo apt-get update
-sudo apt -y upgrade
+#sudo apt -y upgrade
 
 echo " "
 echo "Installing python3-pip..."
